@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: hello-container
-          image: us-central1-docker.pkg.dev/YOUR_PROJECT/hello-repo/hello-app:latest
+          image: us-central1-docker.pkg.dev/terraform-cloudbuild-487613/hello-repo/hello-app:b4b51af
           ports:
             - containerPort: 8080
